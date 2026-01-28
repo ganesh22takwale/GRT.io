@@ -1,0 +1,72 @@
+:root {
+  --silver: #cfd8dc;
+  --glow: #7ef9ff;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0a0f1e, #000);
+  color: var(--silver);
+  font-family: Inter, system-ui;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo { height: 48px; }
+
+.nav a {
+  color: var(--silver);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 30px var(--glow);
+}
+
+.hero span {
+  color: var(--glow);
+}
+
+.btn {
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.primary {
+  background: linear-gradient(90deg, var(--glow), #fff);
+  color: #000;
+}
+
+.ghost {
+  border: 1px solid var(--glow);
+  color: var(--glow);
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+}
+
+.seal {
+  height: 60px;
+  opacity: 0.8;
+}
